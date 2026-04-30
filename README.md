@@ -1,4 +1,4 @@
-# Laravel All-in-One Image (NGINX & PHP-FPM)
+# Ultra-Slim Laravel & PHP Frameworks Image (NGINX + PHP-FPM)
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
