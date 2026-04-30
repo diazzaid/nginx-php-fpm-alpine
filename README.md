@@ -35,7 +35,7 @@ Image ini sangat lengkap, mendukung hampir semua fitur framework Laravel dan lib
 ## 📦 Cara Penggunaan
 
 ###  Build Image
-
+```bash
 docker build -t php-nginx-slim:latest .
 
 ## 🐳 Menjalankan dengan Docker Compose
