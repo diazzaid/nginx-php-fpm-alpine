@@ -20,7 +20,7 @@ Image ini tidak hanya dioptimasi untuk **Laravel**, tetapi juga mendukung penuh 
 - **Default Workdir**: Aplikasi ditempatkan di `/var/www/html`.
 - **Process Manager**: Menggunakan Supervisor untuk menjaga NGINX dan PHP-FPM tetap running.
 - **Universal Support**: Cocok untuk Laravel, CodeIgniter (CI3/CI4), Symfony, dan aplikasi PHP Native.
-- 
+  
 ## 🛠️ PHP Extensions Terpasang
 
 Image ini sangat lengkap, mendukung hampir semua fitur framework Laravel dan library pihak ketiga:
@@ -34,6 +34,12 @@ Image ini sangat lengkap, mendukung hampir semua fitur framework Laravel dan lib
 
 ## 📦 Cara Penggunaan
 
-### 1. Build Image
+###  Build Image
 
 docker build -t php-nginx-slim:latest .
+
+## 🐳 Menjalankan dengan Docker Compose
+
+Untuk kemudahan pengembangan, repositori ini sudah menyertakan file `docker-compose.yml`. Cukup jalankan perintah berikut:
+```bash
+docker-compose up -d
