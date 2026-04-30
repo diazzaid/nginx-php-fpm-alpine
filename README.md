@@ -41,9 +41,7 @@ docker build -t php-nginx-slim:latest .
 ## 🐳 Menjalankan dengan Docker Compose
 
 Untuk kemudahan pengembangan, repositori ini sudah menyertakan file `docker-compose.yml`. Cukup jalankan perintah berikut:
-```bash
+
 docker-compose up -d
-
-
 
 ## Aplikasi Laravel kamu akan dapat diakses di http://localhost:8080
