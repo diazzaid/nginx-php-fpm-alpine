@@ -1,5 +1,5 @@
 # Gunakan base image PHP-FPM Alpine (lebih ringan)
-FROM php:8.5-fpm-alpine AS php
+FROM php:8.4-fpm-alpine AS php
 
 # composer
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
