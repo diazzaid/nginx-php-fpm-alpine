@@ -16,11 +16,11 @@ Image ini tidak hanya dioptimasi untuk **Laravel**, tetapi juga mendukung penuh 
     
 ## 🚀 Fitur Utama
 
-- **Single Container**: NGINX dan PHP-FPM berjalan bersamaan dikelola oleh Supervisor.
-- **Enterprise Ready**: Dukungan penuh untuk database SQL (MySQL/PostgreSQL) dan autentikasi LDAP.
-- **Performance Optimized**: Sudah termasuk Zend OPcache dan Redis untuk caching level tinggi.
-- **Standard Laravel Compliant**: Konfigurasi NGINX sudah mendukung *pretty URLs*.
-
+- **Ultra Lightweight**: Ukuran image hanya **60MB**, mempercepat proses *pulling* dan *deployment*.
+- **Default Workdir**: Aplikasi ditempatkan di `/var/www/html`.
+- **Process Manager**: Menggunakan Supervisor untuk menjaga NGINX dan PHP-FPM tetap running.
+- **Universal Support**: Cocok untuk Laravel, CodeIgniter (CI3/CI4), Symfony, dan aplikasi PHP Native.
+- 
 ## 🛠️ PHP Extensions Terpasang
 
 Image ini sangat lengkap, mendukung hampir semua fitur framework Laravel dan library pihak ketiga:
@@ -32,3 +32,8 @@ Image ini sangat lengkap, mendukung hampir semua fitur framework Laravel dan lib
 | **Performance** | `Zend OPcache`, `redis` |
 | **Integration** | `ldap`, `ftp`, `gd`, `zip`, `zlib` |
 
+## 📦 Cara Penggunaan
+
+### 1. Build Image
+
+docker build -t php-nginx-slim:latest .
